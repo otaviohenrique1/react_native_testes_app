@@ -8,9 +8,11 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest",
     "api": "json-server --host 192.168.0.13 --watch db.json",
-    "api2": "json-server --watch db.json"
+    "api2": "json-server --watch db.json",
+    "test_watch": "jest --watch",
+    "test": "jest --watch --coverage=false",
+    "testFinal": "jest"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.4",
