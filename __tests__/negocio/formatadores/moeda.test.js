@@ -1,6 +1,5 @@
 import { formataBrasileiroParaDecimal, formataDecimalParaReal } from "../../../src/negocio/formatadores/moeda";
 
-
 describe("negocio/formatadores/moeda", () => {
   describe("formataBrasileiroParaDecimal", () => {
     it("Deve retornar 8.59 quando o valor for '8,59'", () => {
