@@ -30,7 +30,10 @@
     "react-native-screens": "~3.18.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/react-native": "^11.5.1",
+    "react-test-renderer": "^18.1.0"
   },
   "private": true,
   "jest": {
