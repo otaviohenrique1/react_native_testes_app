@@ -1,4 +1,4 @@
-import { obtemLeiloes, obtemLeilao } from "../../src/repositorio/leilao";
+import { obtemLeiloes } from "../../src/repositorio/leilao";
 import apiLeiloes from "../../src/servicos/apiLeiloes";
 
 jest.mock("../../src/servicos/apiLeiloes");
